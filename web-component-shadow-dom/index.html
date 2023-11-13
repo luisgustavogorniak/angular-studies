@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Card</title>
+    <script src="src/components/cardNews.js" defer></script>
+    <script src="src/components/TituloDinamico.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <img src="" alt="" />
+          <p>Author</p>
+          <h1>Title</h1>
+          <h3>
+            Description - Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Eaque, officia. Praesentium tempore reprehenderit, quis
+            repudiandae maxime quos quia mollitia expedita incidunt commodi
+            neque beatae magnam dolores laboriosam aut quam nostrum.
+          </h3>
+          <p>Other information</p>
+        </div>
+        <div class="image">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdaa6mEKV5O61980XsJKT-O4Ud2wGEz1TxWN7WWqWJBw&s"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <card-news
+      autor="Jubervaldo"
+      title="Monkey"
+      description="Closely related to apes, monkeys are primates that have a tail and usually live in trees. In some species, the tail is longer than the rest of the body. Monkeys have a relatively large brain and they use their nimble, grasping hands for tasks such as gathering food and picking apart fruit."
+      photo="https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/09/26/150926165742__85730600_monkey2.jpg"
+    ></card-news>
+    <card-news
+      autor="Jubervaldo"
+      title="Monkey"
+      description="Closely related to apes, monkeys are primates that have a tail and usually live in trees. In some species, the tail is longer than the rest of the body. Monkeys have a relatively large brain and they use their nimble, grasping hands for tasks such as gathering food and picking apart fruit."
+    ></card-news>
+    <titulo-dinamico titulo="Noticia 1"></titulo-dinamico>
+    <titulo-dinamico titulo="Noticia 2"></titulo-dinamico>
+  </body>
+</html>
